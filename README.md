@@ -32,40 +32,46 @@ DELETE /api/records?id=:id: Șterge o activitate după ID.
 
 STRUCTURA DATELOR:
 
-title: Numele activității (ex: „Rezervare avion”)
-content: Detalii despre activitate (ex: „Zbor WizzAir, București - Dubrovnik, 10 iulie”)
-completed: Status (true / false)
+_id 682e3c9ec911cdae238cca2d
+Description "Rezervare Hotel Ebis"
+Destination "Paris, Franta"
+departureDate "2025-08-04"
+departureTime "15:50"
 
 EXEMPLE FLUX DE DATE
 
 1. GET /api/records
  [{
-    "_id": "123abc",
-    "title": "Rezervare cazare",
-    "content": "Booking: 10-15 iulie, SeaView Apartment, Dubrovnik",
-    "completed": false
+    "_id": "682e3c9ec911cdae238cca2d",
+   "description": "Rezervare Hotel Ebis",
+"destination": "Paris, Franta",
+"departureDate": "2025-08-04",
+"departureTime": "15:50"
   },
   {
-    "_id": "456def",
-    "title": "Cumpără asigurare de călătorie",
-    "content": "Asigurare medicală pentru 5 zile",
-    "completed": true
+    "_id": "682e3c9ec911cdae238cca2e",
+   "description": "Rezervare Sagrada Familia",
+"destination": "Barcelona, Spania",
+"departureDate": "2026-08-04",
+"departureTime": "10:00"
   }
 ]
 
 2. POST /api/records
 {
-  "title": "Verificare valabilitate pașaport",
-  "content": "Pașaportul trebuie să fie valabil minim 6 luni",
-  "completed": false
+  "description": "Rezervare Sagrada Familia",
+"destination": "Barcelona, Spania",
+"departureDate": "2026-08-04",
+"departureTime": "10:00"
 }
 
 3. PUT /api/records
 {
-  "_id": "123abc",
-  "title": "Rezervare cazare",
-  "content": "Actualizat: hotel cu piscină în Split",
-  "completed": true
+  "_id": "682e3c9ec911cdae238cca2d",
+   "description": "Rezervare Hotel Ebis",
+"destination": "Paris, Franta",
+"departureDate": "2025-08-04",
+"departureTime": "15:50"
 }
 
 4. DELETE /api/records?id=123abc
@@ -73,10 +79,6 @@ EXEMPLE FLUX DE DATE
   "acknowledged": true,
   "deletedCount": 1
 }
-
-
-
-
 
 
 METODE HTTP UTILIZATE
