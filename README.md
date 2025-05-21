@@ -90,6 +90,11 @@ DELETE – pentru a șterge o activitate
 
 CAPTURI DE ECRAN APLICATIE
 ![image](https://github.com/user-attachments/assets/b063e8cd-4e31-4386-a470-0920a80fc44e)
+![image](https://github.com/user-attachments/assets/90393fbe-5a56-47e3-a5da-d2d2995942d0)
+![image](https://github.com/user-attachments/assets/2c27d6ab-ebcd-484e-84eb-1802626c0fa6)
+![image](https://github.com/user-attachments/assets/ec3dd9d0-ab28-41e2-baac-427839c9ff85)
+![image](https://github.com/user-attachments/assets/0c60c687-b99b-4882-87f9-dbfaa929b641)
+
 
 
 
