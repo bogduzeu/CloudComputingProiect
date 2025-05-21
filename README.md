@@ -88,14 +88,6 @@ DELETE – pentru a șterge o activitate
 
 
 
-
-CAPTURI DE ECRAN APLICATIE
-
- 
-
- 
-
-
  
 
 
