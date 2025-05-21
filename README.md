@@ -88,6 +88,9 @@ POST – pentru a adăuga o activitate nouă
 PUT – pentru a modifica o activitate
 DELETE – pentru a șterge o activitate
 
+CAPTURI DE ECRAN APLICATIE
+![image](https://github.com/user-attachments/assets/b063e8cd-4e31-4386-a470-0920a80fc44e)
+
 
 
  
